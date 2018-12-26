@@ -41,8 +41,8 @@ menu:
 #    target: true         Whether to jump out | 是否跳出
 social:
   home:
-    title: MinHow
-    url: //minhow.com
+    title: 我的主页
+    url: //localhost:4000
     target: true
   github:
     title: Github
@@ -51,11 +51,7 @@ social:
   weibo:
     title: Weibo
     url: //weibo.com
-    target: true
-  twitter:
-    title: Twitter
-    url: //twitter.com/huangminhow
-    target: true
+    target: ture
   #qq:
   #weixin:
   #snapchat:
@@ -99,7 +95,7 @@ reward:
   # 0-关闭, 1-所有文章均有打赏, 2-文章的md文件里有reward:true属性，才有打赏
   status: 1
   # 标题
-  title: 请我吃糖~
+  title: 请我吃鸡~
   # 微信，关闭设为 false
   wechat: images/wechat_code.jpg
   # 支付宝，关闭设为 false
@@ -111,7 +107,18 @@ reward:
 changyan_appid: false
 changyan_appkey: false
 # 友言，输入id
-youyan_id: false
+youyan_id: true
+valine:
+    enable: true
+    appId: eMJl2x3DEswvVBT23MnSLKs9-gzGzoHsz
+    appKey: oyNEK7b9HtqqAa9A5jV1Uwc5
+    notify: false
+    verify: false
+    avatar: mp
+    placeholder: 提示文字
+    guest_info: nick,mail,link
+    pageSize: 10
+    lang: zh-cn
 # disqus
 disqus: false
 # gitment  https://github.com/imsun/gitment
@@ -138,4 +145,4 @@ access_counter:
   site_pv: 总访问量：
 
 # Copyright Information | 版权信息
-copyright: 2018 MinHow
+copyright: 2018 邓治强
